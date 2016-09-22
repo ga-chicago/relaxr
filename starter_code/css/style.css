@@ -1,8 +1,8 @@
 /*
 Project Name: Blank Template
 Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Author: Russell McBain
+Developer @GA in Chicago
 */
 
 
@@ -41,9 +41,6 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
 
 body {
      color: #000;
@@ -54,16 +51,12 @@ body {
       background-size: cover;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+    width: 100%;
+    margin: auto;
+    height: 0;
+    font-weight: 400;
 
 }
 
@@ -74,11 +67,56 @@ header {
 footer {
 
 }
+h1 {
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 0 white;
+    letter-spacing:1px;
+    font-weight:bold;
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+}
+h2 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 0 white;
+    letter-spacing:1px;
+    font-weight:bold;
 
+}
+input {
+    border: 0;
+    padding: 14px;
+    font-size: 24px;
+    width: 240px;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background: #f9e42e;
+    color: #033048;;
+    padding: 9;
+    font-family: 'Open Sans', sans-serif;
+    height: 58px;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    text-shadow: 1px 0 #033048;
+    letter-spacing:1px;
+    font-weight:bold;
+
+}
+#button {
+    color: #033048;
+    height: 10px;
+
+}
 
 
 
