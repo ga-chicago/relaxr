@@ -45,13 +45,86 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+div {
+  font-family: 'Open Sans', sans-serif;
+  color:white;   
+
+}
+
+#Relaxr {
+  font-size: 50px;
+  font-weight: 800;
+  padding: 50px;
+
+}
+
+#Subline {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align:center;
+  padding: 50px;
+
+}
+
+#Getnow {
+  font-size: 35px;
+  font-weight: 800;
+  background-color:#f9e42e;
+  color: #033048;
+  text-align:center;
+  margin:0px 575px 40px 575px;
+  padding: 5px -10px 5px -10px;
+  border-radius: 5px;
+
+ 
+
+}
+
+
+#Text {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#Benefits {
+  font-size:20px;
+  font-weight:600;
+  background-color: #f0efef
+}
+
+li {
+  font-size:13px;
+  font-weight:300;
+ 
+}
+
+#quote {
+  font-size: 18px;
+  font-weight:300i;
+}
+
+#author {
+  font-size:18px;
+  font-weight:600;
+}
+
+#sign {
+  font-size:12px;
+  font-weight: 800;
+  border-radius: 5px;
+
+}
+
+
+
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    background-size: cover;
 }
 
 
@@ -64,6 +137,7 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+ 
 
 }
 
@@ -72,6 +146,9 @@ header {
 }
 
 footer {
+  font-size:9px;
+  font-weight: 600;
+
 
 }
 
