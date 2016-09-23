@@ -51,7 +51,7 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
 }
 
 
@@ -61,18 +61,114 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+    width: 100%;
+    margin: auto;
+    height: 800px;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
 
 }
+h1{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 10%;
+}
+#title{
+    font-weight: 800;
+    color: #f0efef;
 
+}
+h2{
+    font-size: 40px ;
+    font-weight: 600;
+    color: #f0efef;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #f9e42e;
+    border: 10px;
+    text-align:center;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 38%;
+    padding: 1% 7.5% 1% 7.5%;
+
+}
+#white {
+    background-color: white;
+    height: 100%;
+    color: #033048;
+    margin: auto 0;
+}
+p{
+
+    font-size: 27px;
+    width: 60%;
+    padding-left: 10%;
+    margin-top: 1%;
+    padding-bottom:4%;
+}
+#special{
+    padding-top: 7%;
+    margin: auto 0;
+}
+ul{
+    list-style-type: square;
+}
+li{
+    font-size: 27px;
+    padding-left: 15%;
+    padding-bottom: 1%;
+    width: 50%;
+
+}
+li:nth-child(4n){
+    padding-bottom: 6%;
+}
+#testimonial{
+    background: url(../images/testimonial_bg.jpg) no-repeat center top;
+    line-height: 1.4;
+    background-size: cover;
+    color: #f0efef;
+    margin: auto 0;
+    font-weight: 100;
+}
+#testimonial p{
+    text-align: center;
+    width: 45%;
+    margin-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#testimonial h2{
+    text-align: center;
+    width:45%;
+    margin-left: 25%;
+    padding-top: 0;
+    margin-top: 0;
+}
 header {
 
 }
 
 footer {
-
+    position: relative;
+    font-size:9px;
+    font-weight: 600;
 }
 
 /******************************************
