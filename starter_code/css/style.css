@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Home Page
+Client: Relaxr
+Author: Jennifer Brown
+Developer @GA in Chicago
 */
 
 
@@ -49,9 +49,11 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+
+      
+
+      font-family: 'Open Sans', sans-serif;
+      font-weight: Light, Light Italic, Semibold, Extrabold;
 }
 
 
@@ -68,11 +70,137 @@ body {
 }
 
 header {
+  height: 650px;
+
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#h1_header {
+  
+  font-weight: 800 ;
+  font-size: 24px;
+  color: #f0efef;
+  margin-left: -50%;
+}
+
+#h2_header {
+  font-weight: 600 ;
+  font-size: 24px;
+  color: #f0efef;
+  margin-top: 125px;
+}
+
+
+#getNow {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  padding: 8px 35px;
+  margin-top: 50px;
+}
+
+#section1 {
+  background-color: #f0efef;
+  width: 100%;
+  height: 550px;
+
+  color: #606161;
+  font-size: 13px;
+  font-weight: 300;
+
+}
+#div_section1 {
+  width: 60%;
+  padding: 10% 0 0 10%;
+}
+
+#h2_section1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#p_section1 {
+  margin-bottom: 20px;
+}
+
+ul {
+ list-style-type: disc;
+ margin: 0 0 0 30px;
+
+
+}
+
+#section2 {
+  height: 400px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  color: #f0efef; 
+}
+
+#h2_section2 {
+ font-weight: 600;
+ font-style: normal;
+}
+#div_section2 {
+  height: 400px;
+  width: 100%;
+  padding: 10% 25% 0 25%;
+  text-align: center;
+}
+
+#section3 {
+  height: 150px;
+  background-color: #f9e42e;
+  text-align: center;
+}
+
+#signUpButton {
+  color: #f0efef;
+  background-color: #033048;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px ;
+  padding: 10px 30px;
+  margin-top: 4%;
 
 }
 
 footer {
+  width: 100%;
+  height: 200px;
+  margin: 0;
 
+  background-color: #121212;
+  clear: both;
+
+  text-align: center;
+  font-weight: 600;
+  font-size: 9px;
+  color: #f0efef;
+}
+
+
+#h2_footer {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 24px;
+  padding: 30px 0;
+
+}
+img {
+  margin: 0 10px;
+}
+#p_footer {
+  clear: both;
+  padding: 30px 0 0 0;
 }
 
 /******************************************
