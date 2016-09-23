@@ -68,13 +68,14 @@ div {
 }
 
 #Getnow {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 800;
   background-color:#f9e42e;
   color: #033048;
   text-align:center;
-  margin:0px 575px 40px 575px;
-  padding: 5px -10px 5px -10px;
+  margin:0px 620px 40px 620px;
+  padding-top:10px;
+  padding-bottom:10px;
   border-radius: 5px;
 
  
