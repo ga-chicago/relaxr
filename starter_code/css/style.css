@@ -69,7 +69,7 @@ https://github.com/ga-chicago/relaxr/blob/master/starter_code/design_file.txt
 }
 
 header {
-  background-color: #033048
+  background-color: #033048;
 
 }
 
@@ -103,13 +103,15 @@ button {
   border-color: #f9e42e;
 }
 
-.benefits{}
+#benefits{
+  background-color: #f9e42e;
+}
 
-.testimonial{
+#testimonial{
   font-size: 18px;
   font-weight:  Semibold;
 }
 
-.signUp{
+#signUp{
   background-color: #f9e42e;
 }
