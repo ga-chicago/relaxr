@@ -49,9 +49,8 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
+     text-align: center;
 }
 
 
@@ -63,22 +62,140 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 780px;
 
 }
 
 header {
+  height: 100px;
+  background-color: transparent;
+  text-align: left;
+  margin-left: 150px;
+}
 
+section#hero {
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+section#benefits {
+  height: 280px;
+  background-color: #f0efef;
+  text-align: left;
+}
+
+section#benefits > article {
+  width: 500px;
+  margin: 0 auto;
+}
+
+section#testimonial {
+  height: 250px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  color: #f0efef;
+}
+
+section#call_to_action {
+  height: 75px;
+  background-color: #f9e42e;
 }
 
 footer {
-
+  height: 200px;
+  background-color: #121212;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p#description {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+ol#description_list {
+  list-style-type: disc;
+  font-size: 13px;
+}
+
+button.yellow_button {
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  font-size: 14px;
+  font-weight: 800;
+  color: #033048;
+  border:none;
+}
+
+button.navy_button {
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 18px;
+  border:none;
+}
+
+p#testimonial_quote {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  width: 458px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer > h1 {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  color: #f9e42e;
+}
+
+article#social_media_icons {
+  margin-bottom: 25px;
+}
+
+article#social_media_icons > img:nth-child(2n-1) {
+  margin-right: 25px;
+}
 
 
+p#copyright {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+}
 
