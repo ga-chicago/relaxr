@@ -51,9 +51,10 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    background-size: cover;
+    color: white;
 }
-
+https://github.com/ga-chicago/relaxr/blob/master/starter_code/design_file.txt
 
 /******************************************
 /* LAYOUT
@@ -68,17 +69,47 @@ body {
 }
 
 header {
+  background-color: #033048
 
 }
 
 footer {
-
+  background-color: 121212;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1, h2 {
+  font-size: 24px;
+  font-weight: Semibold;
+}
 
+h3 {
+  font-size: 24px;
+  font-weight: Semibold;
+}
 
+p, ul, li {
+  font-size: 13px
+  font-weight: light;
+}
 
+button {
+  font-weight: ExtraBold;
+  font-size: 14px;
+  border-radius: 5px;
+  border-color: #f9e42e;
+}
+
+.benefits{}
+
+.testimonial{
+  font-size: 18px;
+  font-weight:  Semibold;
+}
+
+.signUp{
+  background-color: #f9e42e;
+}
