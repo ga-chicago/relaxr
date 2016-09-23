@@ -59,6 +59,20 @@ body {
 
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 5% 20% 2% 20%;
+}
+
+p:nth-child(2n) {
+    font-style: normal;
+    font-weight: 900;
+    padding:0;
+    font-size: 2rem;
+}
 
 h1 {
     font-weight: 900;
@@ -71,6 +85,7 @@ h1 {
 h1:nth-child(2n) {
     color: #f9e42e;
     margin: 0 auto;
+    text-align: center;
 }
 
 h2 {
@@ -111,6 +126,7 @@ button {
 
 ul {
     padding: 2% 0 0 8%;
+    display: inline;
 }
 
 ul li {
@@ -132,11 +148,16 @@ ul li {
     margin: 0 0 30% 0;
 }
 
+
 #sign-up button {
     background-color: #080e33;
     color: #fff;
     margin: 2%;
 
+}
+
+.social-media-icon {
+    margin: 7% 2.25%;
 }
 /******************************************
 /* LAYOUT
